@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7; /* Light gray background */
+}
+
+#app {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adding shadow for depth */
+}
+
+#button-container {
+  margin-bottom: 20px; /* Space between buttons and image container */
+}
+
+#fetch-dog-image-button, #previous-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Space between buttons */
+}
+
+#dog-image-container {
+  max-width: 600px; /* Limiting container width for better image presentation */
+  margin: 0 auto; /* Centering the container horizontally */
+  overflow: hidden; /* Ensuring any oversized images are clipped */
+  border: 2px solid #4CAF50; /* Border color and width */
+  border-radius: 10px;
+  padding: 10px; /* Padding inside the container */
+  background-color: white; /* Background color inside the container */
+}
+
+.dog-image {
+  width: 100%; /* Ensures images fill their container */
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
